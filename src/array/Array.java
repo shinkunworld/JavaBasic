@@ -23,6 +23,7 @@ public class Array {
 		int totalHeight = 0;
 		int maxH = 0;
 		int maxHIndex = 0;
+
 		int minH = 0;
 		int minHIndex = 0;
 
@@ -36,9 +37,11 @@ public class Array {
 		System.out.println("학생들의 평균 신장은 " + (totalHeight / iArrName.length) + "입니다.");
 
 		for (int i = 0; i < iArr.length; i++) {
+
 			if (iArr[i] > maxH) {
-				maxH = iArr[i];
-				maxHIndex = i;
+				// maxH = iArr[i];
+
+				// maxHIndex = i;
 			}
 		}
 		System.out.println("가장 큰 학생은 " + iArrName[maxHIndex] + "입니다.");
